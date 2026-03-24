@@ -1,4 +1,5 @@
 <?php
+// To make sure user are signed in before any action.
 declare(strict_types=1);
 if (session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
