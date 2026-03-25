@@ -1,10 +1,10 @@
 
 <?php
 // config/db_idata.php
-$ID_HOST = '10.0.23.197';
-$ID_NAME = 'idata';
-$ID_USER = 'ikdhusr';
-$ID_PASS = 'dbk3d@h17';
+$ID_HOST = '';
+$ID_NAME = '';
+$ID_USER = '';
+$ID_PASS = '';
 
 try {
   $pdo_idata = new PDO("mysql:host=$ID_HOST;dbname=$ID_NAME;charset=latin1", $ID_USER, $ID_PASS, [
