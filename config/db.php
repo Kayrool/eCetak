@@ -1,10 +1,10 @@
 
 <?php
 // config/db.php
-$DB_HOST = '10.0.23.197';
-$DB_NAME = 'ecetak';
-$DB_USER = 'ikdhusr';
-$DB_PASS = 'dbk3d@h17';
+$DB_HOST = '';
+$DB_NAME = '';
+$DB_USER = '';
+$DB_PASS = '';
 
 try {
   $pdo = new PDO("mysql:host=$DB_HOST;dbname=$DB_NAME;charset=utf8mb4", $DB_USER, $DB_PASS, [
